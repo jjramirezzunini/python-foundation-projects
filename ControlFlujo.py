@@ -43,3 +43,11 @@ else:
 # Operadores ternarios: Aplican una estructura diferente para establecer condiciones, se escribe en una sola linea
 # "Resultado verdadero" -> "Condicional if" -> "Condicional else" -> "Resultado False"
 print("Cuando devuelve True") if 5 > 2 else print("Cuando devuelve False")
+
+# Conector lógico AND: Ambas condiciones deben ser verdaderas para que el resultado sea verdadero y se imprima la String
+if 2 < 5 and 3 > 2:
+    print("Ambas devuelven True")
+
+# Conector lógico OR: A diferencia de AND, basta que una condición sea verdadera
+if 2 > 5 or 3 > 2:
+    print("Una de las dos condiciones es verdadera")
