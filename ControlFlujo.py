@@ -40,6 +40,6 @@ elif 2 > 5:
 else:
     print("yo me imprimo si todo lo demas es false")
 
-# Condicionales ternarioas: Aplican una estructura diferente para establecer condiciones, se escribe en una sola linea
+# Operadores ternarios: Aplican una estructura diferente para establecer condiciones, se escribe en una sola linea
 # "Resultado verdadero" -> "Condicional if" -> "Condicional else" -> "Resultado False"
 print("Cuando devuelve True") if 5 > 2 else print("Cuando devuelve False")
