@@ -1,19 +1,19 @@
-# # Son variables True o False, deben empezar con mayúscula
+# Booleans: Son variables True o False, deben empezar con mayúscula
 # verdadero = True
 # falso = False
-#
-# # Instrucción "if"
-#
-# if 2<5:
-#     print("2 es menor que 5")
 
-# Comparar variables
+
+# Comparación de  variables
 # a == b
 # a < b
 # a > b
 # a != b
 # a <= b
 # a >= b
+# # Instrucción "if"
+#
+# if 2<5:
+#     print("2 es menor que 5")
 
 # if 2 == 2 :
 #     print("2 es igual a 2")
@@ -32,9 +32,14 @@
 # if 3 <= 2 :
 #     print("3 es menor o igual que 2")
 
+# Condicionales consecutivas
 if 2 > 5 :
     print("lala")
 elif 2 > 5:
     print("2 es menor que 5")
 else:
     print("yo me imprimo si todo lo demas es false")
+
+# Condicionales ternarioas: Aplican una estructura diferente para establecer condiciones, se escribe en una sola linea
+# "Resultado verdadero" -> "Condicional if" -> "Condicional else" -> "Resultado False"
+print("Cuando devuelve True") if 5 > 2 else print("Cuando devuelve False")
