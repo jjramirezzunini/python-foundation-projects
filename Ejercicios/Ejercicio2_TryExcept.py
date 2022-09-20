@@ -1,4 +1,4 @@
-# Utilizando input crearemos una calculadora que solo suma
+# Utilizando input crearemos una calculadora
 
 # Python recibe datos ingresados por input en formato String, por tanto tenemos que transformarlos
 # a Integer utilizando la sentencia int
@@ -13,15 +13,28 @@ primero = input('Ingrese el primer número:')
 try:
     primero = int(primero)
 except:
-    primero = "string"
+    print("El valor ingresado no es un número entero")
+    exit()
+# La sentencia exit termina el proceso después de la excepción
 
 segundo = input('Ingrese el segundo número:')
 try:
     segundo = int(segundo)
 except:
-    segundo = "string"
+    print("El valor ingresado no es un número entero")
+    exit()
 
-if primero == "string" or segundo == "string":
-    print("Por favor ingrese solo datos numéricos")
-else:
+# Condicional para reconocer la operacion
+simbolo = input("Ingrese la operación: ")
+if simbolo == "+":
     print(primero + segundo)
+elif simbolo == "-":
+    print(primero - segundo)
+elif simbolo == "*":
+    print(primero * segundo)
+elif simbolo == "/":
+    print(primero / segundo)
+else:
+    print("Ingrese un símbolo válido")
+
+
